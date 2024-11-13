@@ -12,7 +12,7 @@ public class ConnectionProvider {
 		try
 		{
 		Class.forName("org.postgresql.Driver"); 
-		Connection con = DriverManager.getConnection("jdbc:postgresql://127.0.0.1:5432/Online Shopping Portal", "postgres", "pilsch");
+		Connection con = DriverManager.getConnection(//jdbc connection);
 		return con;
 		}
 		catch(Exception e)
